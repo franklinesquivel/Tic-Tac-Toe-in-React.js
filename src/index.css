@@ -93,3 +93,27 @@ li{
     /*font-weight: bold;*/
 }
 
+@media only screen and (max-width: 768px) {
+    .game {
+        display: inline-block;
+        flex-direction: row;
+        width: 100%;
+        padding: 0px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .game-board{
+        width: 100%;
+        height: auto;
+    }
+
+    .game-board .board-row .square{
+        width: 33.33%;
+        height: 105px;
+    }
+
+    .game .game-info{
+        margin-left: 25px;
+    }
+}

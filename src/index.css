@@ -1,7 +1,7 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
     background: #27ae60;
+    margin: 0px;
 }
 
 ol, ul {
@@ -81,5 +81,15 @@ ol{
 
 li{
     cursor: pointer;
+}
+
+.header{
+    widows: 100%;
+    padding: 50px;
+    font-size: 35px;
+    background: #fff;
+    color: #27ae60;
+    margin-bottom: 5%;
+    /*font-weight: bold;*/
 }
 

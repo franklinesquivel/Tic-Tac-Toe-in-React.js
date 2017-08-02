@@ -124,7 +124,10 @@ class Game extends React.Component {
 // ========================================
 
 ReactDOM.render(
-    <Game />,
+    <div>
+        <div className='header'>Tic Tac Toe</div>
+        <Game />
+    </div>,
     document.getElementById('root')
 );
 
